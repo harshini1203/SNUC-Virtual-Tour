@@ -41,7 +41,7 @@ h1{
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
-img{
+.images{
   border-radius:100%;
   width: 50%;
 }
@@ -56,4 +56,15 @@ text-align: center;
   color:#EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+.carousel-item{
+  height:550px;
+
+}
+.carousel-item > div {
+  height: 55%;
+  display: flex;
+  color:#00008B;
+  flex-direction: column;
+  justify-content: center;
 }
