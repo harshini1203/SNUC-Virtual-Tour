@@ -1,0 +1,10 @@
+.SatelliteV {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+.heading {
+  background-color:#25316D;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
