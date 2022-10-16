@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+ }
 .home1{
   text-align: center;
   padding-bottom:240px;
@@ -22,17 +25,37 @@ h1{
   padding: 10px;
   padding-bottom: 100px;
   padding-top: 100px;
-  font-family: Montez;
+  font-family: font-family: 'Jost', sans-serif;
   font-size: 25px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+.home3{
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 10s;
   -moz-animation: fadeIn 10s;
   -o-animation: fadeIn 10s;
   -ms-animation: fadeIn 10s;
-}
+  font-family: font-family: 'Jost', sans-serif;
+  font-size: 25px;
 
+}
+.bottom-container{
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 15s;
+  -moz-animation: fadeIn 15s;
+  -o-animation: fadeIn 15s;
+  -ms-animation: fadeIn 15s;
+  font-family: font-family: 'Jost', sans-serif;
+  font-size: 25px;
+}
 .trying{
-  font-size: 40px;
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+
 }
 
 .thread1{
@@ -40,7 +63,7 @@ h1{
   border-top-style: solid;
   border-color: black;
   border-width: 5px;
-  width: 5%;
+  width: 2%;
   margin:auto;
   margin-top: 70px;
   margin-bottom: 70px;
@@ -82,7 +105,7 @@ h1{
   100% { opacity: 1; }
 }
 .btn {
-  background: #11cdd4;
+  background: #151B54;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
   background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
