@@ -134,3 +134,36 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
 }
+
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.slide{
+  padding-top: 0px;
+}
+.container-fluid{
+  padding:0;
+}
+.s1{
+  color: black;
+}
+.s2{
+  color:#150050 ;
+}
+.s3{
+  color: white;
+}
+
+
+.carousel-item{
+    float:none;
+    transition: 0s !important;
+}
+.carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
+
+}
