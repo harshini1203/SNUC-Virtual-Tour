@@ -1,0 +1,123 @@
+.home1{
+  text-align: center;
+  padding-bottom:240px;
+  padding-top: 0px;
+}
+
+body{
+  margin:0;
+}
+.heading{
+  padding-top: 0;
+  width:1500px;
+}
+h1{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.btn {
+  background: #0b3e61;
+  background-image: -webkit-linear-gradient(top, #0b3e61, #6892ad);
+  background-image: -moz-linear-gradient(top, #0b3e61, #6892ad);
+  background-image: -ms-linear-gradient(top, #0b3e61, #6892ad);
+  background-image: -o-linear-gradient(top, #0b3e61, #6892ad);
+  background-image: linear-gradient(to bottom, #0b3e61, #6892ad);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 9px 28px 12px 27px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #1573ad;
+  background-image: -webkit-linear-gradient(top, #1573ad, #6cb8eb);
+  background-image: -moz-linear-gradient(top, #1573ad, #6cb8eb);
+  background-image: -ms-linear-gradient(top, #1573ad, #6cb8eb);
+  background-image: -o-linear-gradient(top, #1573ad, #6cb8eb);
+  background-image: linear-gradient(to bottom, #1573ad, #6cb8eb);
+  text-decoration: none;
+}
+.images{
+  border-radius:100%;
+  width: 50%;
+}
+.bottom-container{
+  text-align: center;
+
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+}
+.copyright{
+text-align: center;
+  color:#EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.carousel-item{
+  height:550px;
+
+}
+.carousel-item > div {
+  height: 55%;
+  display: flex;
+  color:#00008B;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+.slide{
+  padding-top: 70px;
+}
+.container-fluid{
+  padding:0;
+}
+.s1{
+  color: black;
+}
+.s2{
+  color:#150050 ;
+}
+.s3{
+  color: white;
+}
+
+
+.carousel-item{
+    float:none;
+    transition: 0s !important;
+}
+.carousel-inner>.item {
+    -webkit-transition: 0s !important;
+    -o-transition: 0s !important;
+    transition: 0s !important;
