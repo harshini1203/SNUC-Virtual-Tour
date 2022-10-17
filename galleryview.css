@@ -2,12 +2,14 @@
   margin:0; padding:0;
   box-sizing: border-box;
 
+
+
 }
 
 .container {
-  position:relative;
-  min-height: 100vh;
-  background:#7FBCD2;
+  width:100%;
+  background:#3A3B3C;
+
 }
 
 .container h1{
