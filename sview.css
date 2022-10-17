@@ -1,7 +1,8 @@
 .SatelliteV {
   position: absolute;
-  top: 100px;
-  left: 400px;
+  top: 150px;
+  height: 100%;
+  width: 100%;
 }
 .heading {
   background-color:#25316D;
