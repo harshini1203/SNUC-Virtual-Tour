@@ -214,3 +214,54 @@ h4{
 .about{
   padding-bottom:0px;
 }
+.btn1 {
+min-width: 190px;
+height: 60px;
+color:  #594545;
+padding:18px 10px 20px 10px;
+font-size:17px;
+cursor: pointer;
+transition: all 0.3s ease;
+font-family:font-family: 'Raleway', sans-serif;-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+
+display: inline-block;
+outline: none;
+border-radius: 5px;
+border: none;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+background: #151B54;
+color:#6D7B8D;
+text-decoration: none;
+z-index: 1;
+}
+.btn1:hover:after {
+width: 100%;
+left: 0;
+background:#95B9C7;
+text-decoration: none;
+}
+.btn1:after {
+border-radius: 5px;
+position: absolute;
+content: "";
+width: 0;
+height: 100%;
+top: 0;
+z-index: -1;
+box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+transition: all 0.3s ease;
+
+text-decoration: none;
+right: 0;
+}
+.btn1:active {
+top: 2px;
+}
+.btn1:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
